@@ -1,0 +1,20 @@
+@media (max-width: 1200px) {
+    .main-slider .slide {
+        padding: 150px 0px 220px;
+        background-size: cover; 
+    }
+}
+
+@media (max-width: 768px) {
+    .main-slider .slide {
+        padding: 100px 0px 150px;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-slider .slide {
+        padding: 80px 0px 100px;
+        background-size: cover;
+    }
+}
