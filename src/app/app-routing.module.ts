@@ -12,6 +12,9 @@ import { ZeepackageComponent } from './zeepackage/zeepackage.component';
 import { StarpackageComponent } from './starpackage/starpackage.component';
 import { SonypackageComponent } from './sonypackage/sonypackage.component';
 import { ColorspackageComponent } from './colorspackage/colorspackage.component';
+import { SunpackageComponent } from './sunpackage/sunpackage.component';
+import { EtvpackageComponent } from './etvpackage/etvpackage.component';
+
 
 const routes: Routes = [
   {
@@ -27,6 +30,8 @@ const routes: Routes = [
       { path: 'starpackage', component:  StarpackageComponent},
       { path: 'sonypackage', component:  SonypackageComponent},
       { path: 'colorspackage', component:  ColorspackageComponent},
+      { path: 'sunpackage', component:  SunpackageComponent},
+      { path: 'etvpackage', component:  EtvpackageComponent},
 
 
 

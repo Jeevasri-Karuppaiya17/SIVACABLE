@@ -16,6 +16,8 @@ import { ZeepackageComponent } from './zeepackage/zeepackage.component';
 import { StarpackageComponent } from './starpackage/starpackage.component';
 import { SonypackageComponent } from './sonypackage/sonypackage.component';
 import { ColorspackageComponent } from './colorspackage/colorspackage.component';
+import { SunpackageComponent } from './sunpackage/sunpackage.component';
+import { EtvpackageComponent } from './etvpackage/etvpackage.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { ColorspackageComponent } from './colorspackage/colorspackage.component'
     ZeepackageComponent,
     StarpackageComponent,
     SonypackageComponent,
-    ColorspackageComponent
+    ColorspackageComponent,
+    SunpackageComponent,
+    EtvpackageComponent
   ],
   imports: [
     BrowserModule,

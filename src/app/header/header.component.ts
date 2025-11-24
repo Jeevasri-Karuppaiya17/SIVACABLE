@@ -16,7 +16,7 @@ export class HeaderComponent implements OnInit  {
 
   ngOnInit(): void {
     this.onWindowScroll();
-    const dcnBasePackLink = document.getElementById('dcnBasePack');
+    const dcnBasePackLink = document.getElementById('baseplan');
     if (dcnBasePackLink) {
       dcnBasePackLink.addEventListener('click', (event) => {
         event.preventDefault(); 
@@ -24,7 +24,7 @@ export class HeaderComponent implements OnInit  {
       });
     }
 
-    const dcnGoldPackLink = document.getElementById('dcnGoldPack');
+    const dcnGoldPackLink = document.getElementById('basicplan');
     if (dcnGoldPackLink) {
       dcnGoldPackLink.addEventListener('click', (event) => {
         event.preventDefault(); 
@@ -32,38 +32,38 @@ export class HeaderComponent implements OnInit  {
       });
     }
 
-    const dcnFamilyPackLink = document.getElementById('dcnFamilyPack');
+    const dcnFamilyPackLink = document.getElementById('telugulite');
     if (dcnFamilyPackLink) {
       dcnFamilyPackLink.addEventListener('click', (event) => {
         event.preventDefault(); 
         this.openExcelFile1();
       });
     }
-    const dcnHindiPackLink = document.getElementById('dcnHindiPack');
-    if (dcnHindiPackLink) {
-      dcnHindiPackLink.addEventListener('click', (event) => {
-        event.preventDefault(); 
-        this.openExcelFile2();
-      });
-    }
+    // const dcnHindiPackLink = document.getElementById('dcnHindiPack');
+    // if (dcnHindiPackLink) {
+    //   dcnHindiPackLink.addEventListener('click', (event) => {
+    //     event.preventDefault(); 
+    //     this.openExcelFile2();
+    //   });
+    // }
   }
 
   openExcelFile0() {
-    const fileUrl0 = '/assets/file/DCN Base Pack.pdf'; 
+    const fileUrl0 = '/assets/file/SDCN Base1.pdf'; 
     window.open(fileUrl0, '_blank'); 
   }
   openExcelFile() {
-    const fileUrl = '/assets/file/DCN Gramin Gold Packages.pdf'; 
+    const fileUrl = '/assets/file/SDCN Basic2.pdf'; 
     window.open(fileUrl, '_blank'); 
   }
   openExcelFile1() {
-    const fileUrl1 = '/assets/file/DCN Family Packages.pdf'; 
+    const fileUrl1 = '/assets/file/SDCN Telugu Lite3.pdf'; 
     window.open(fileUrl1, '_blank'); 
   }
-  openExcelFile2() {
-    const fileUrl2 = '/assets/file/DCN Hindi Packages.pdf'; 
-    window.open(fileUrl2, '_blank'); 
-  }
+  // openExcelFile2() {
+  //   const fileUrl2 = '/assets/file/DCN Hindi Packages.pdf'; 
+  //   window.open(fileUrl2, '_blank'); 
+  // }
 }
 document.addEventListener('DOMContentLoaded', function() {
   const menuTrigger = document.querySelector('.mobile-menu-trigger');

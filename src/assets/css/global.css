@@ -58,70 +58,50 @@
 
 :root {
 	
-	/* #df0303 in decimal RGB */
-  --main-color: #9b1d4e;
-  
-  /* #010c3a in decimal RGB */
-  --main-color-two: rgb(1,12,58);
-  
-  /* #002d5b in decimal RGB */
+  /* --main-color: #9b1d4e; */
+  --main-color: #F49407;
+
+  /* --main-color-two: rgb(1,12,58); */
+  --main-color-two: rgb(46, 49, 61);
+
   --main-color-three: rgb(0,45,91);
   
-  /* #ff6206 in decimal RGB */
   --main-color-four: rgb(255,98,6);
   
-  /* #f28e27 in decimal RGB */
   --main-color-five: rgb(242,142,39);
   
-  /* #173fcf in decimal RGB */
   --main-color-six: rgb(23,63,207);
   
-  /* #e503ee in decimal RGB */
   --main-color-seven: rgb(229,3,238);
   
-  /* #FFF1FF in decimal RGB */
   --main-color-eight: rgb(255,241,255);
   
-  /* #15005f in decimal RGB */
   --main-color-nine: rgb(21,0,95);
   
-  /* #00caff in decimal RGB */
   --main-color-ten: rgb(0,202,255);
   
-  /* #013eff in decimal RGB */
   --main-color-eleven: rgb(1,62,255);
   
-  /* #D54022 in decimal RGB */
   --main-color-twelve: rgb(213,64,31);
   
-  /* #189cfc in decimal RGB */
   --main-color-thirteen: rgb(24,156,252);
   
-  /* #333333 in decimal RGB */
   --main-color-fourteen: rgb(51,51,51);
   
-  /* #e62a5b in decimal RGB */
   --main-color-fifteen: rgb(230,42,91);
   
-  /* #bb0b0b in decimal RGB */
   --main-color-sixteen: rgb(187,11,11);
   
-  /* #432568 in decimal RGB */
   --main-color-seventeen: rgb(67,37,104);
   
-  /* #e52a5b in decimal RGB */
   --main-color-eighteen: rgb(229,42,91);
   
-  /* #e92a5b in decimal RGB */
   --main-color-nineteen: rgb(233,42,91);
   
-  /* #444445 in decimal RGB */
   --main-color-twenty: rgb(68,68,69);
   
-  /* #777778 in decimal RGB */
   --main-color-twentyone: rgb(119,119,120);
   
-  /* #322668 in decimal RGB */
   --main-color-twentytwo: rgb(50,38,104);
   
   
